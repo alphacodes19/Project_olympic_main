@@ -6,7 +6,8 @@ from django.http import HttpResponse
 from io import StringIO
 # Create your views here.
 
-
+def home(request):
+    return HttpResponse("Olympics Project is Live 🚀")
 def index(request):
     return render(request , 'main/index.html')
 
