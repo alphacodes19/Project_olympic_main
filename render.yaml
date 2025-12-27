@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: olympic-django
+    env: python
+    plan: free
+    pythonVersion: 3.10.13
